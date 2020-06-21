@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.skill-bold {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+}
+
+.resume {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: #012633;
+}
+
+#name > .bold{
+  padding-bottom: 7px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+}
+
+#name{
+  padding-bottom: 30px;
+}
+
+.container{
+  display: flex;
+  padding-bottom: 7px;
+  align-items: center;
+}
+
+.container > .semi-bold {
+  flex-wrap: nowrap;
+  margin-right: 10px;
+}
+
+#container-last{
+  padding-bottom: 0px;
+}
+
+.skill-content{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.resume .resume_left .resume_profile img{
+  width: 100%;
+  height: 100%;
+}
+
+.resume_profile{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding:40px;
+}
+
+.resume_profile img{
+  border-radius: 50%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  margin-right: 10px;
+  border: 4px solid white;
+}
+
+.content{
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 7px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.data > .semi-bold{
+  color:white;
+}
+
+.cont{
+  color:#b1eaff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+.resume .resume_left .regular {
+  color: #b1eaff;
+}
+
+.resume .resume_item {
+  padding: 25px 0;
+  border-bottom: 2px solid #c5cfd3;
+}
+
+#resume_last{
+  padding-bottom: 0px;
+}
+
+.resume_item:first-child{
+  padding-top: 0;
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+.resume .resume_left ul li .icon {
+  min-width: 25px;
+  min-height: 25px;
+  background: #fff;
+  color: #000000;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.resume .icon i,
+.resume .resume_right .resume_hobby ul li i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resume .resume_left ul li .data {
+  color: #b1eaff;
+}
+
+.resume .resume_left .resume_social .semi-bold {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.resume .resume_right {
+  width: 520px;
+  background: white;
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #043e53;
+}
+
+.resume .resume_right .resume_work ul{
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #043e53;
+}
+
+.resume .resume_right .resume_work ul li:after{
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 132px;
+  background: #043e53;
+}
+
+.resume_education > ul > li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.resume_education > ul li:last-child{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.resume_education > ul > li > img{
+  width: 30px;
+  height: 37px;
+  filter: grayscale(100%) brightness(70%) contrast(3);
+}
+
+.resume_education > ul > li > div{
+  padding-left: 18px; /*10px is right one*/
+}
+
+.resume .resume_right .resume_education ul li .info {
+  margin-bottom: 0;
+}
+
+.info-last{
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  color:black;
+  font-size: 12px;
+}
+
+.info-last > i{
+  margin-left: 7px;;
+  margin-right: 7px;
+}
+
+.resume_last{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+
+
+
+
+
