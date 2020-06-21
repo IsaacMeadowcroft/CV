@@ -35,7 +35,7 @@ body {
 
 .resume {
   width: 800px;
-  height: auto;
+  height: 1019px;
   display: flex;
   margin: 0px auto;
 }
@@ -273,7 +273,7 @@ body {
 }
 
 .info-last{
-  padding-top: 15px;
+  padding-top: 25px;
   display: flex;
   align-items: center;
   color:black;
