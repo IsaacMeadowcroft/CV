@@ -45,15 +45,9 @@ body {
   background: #012633;
 }
 
-#name > .bold{
-  padding-bottom: 7px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 26px;
-}
-
 #name{
-  margin-top: 80px;
-  margin-bottom: 120px;
+  margin-top: 100px;
+  margin-bottom: 110px;
 }
 
 #project{
