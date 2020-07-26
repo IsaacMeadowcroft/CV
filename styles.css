@@ -21,6 +21,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.bold1{
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 17px;
+
+}
+
 .semi-bold {
   font-weight: 500;
   font-size: 16px;
@@ -124,7 +132,12 @@ body {
   color:white;
 }
 
+.data > a{
+  display:block;
+}
+
 .cont{
+  text-decoration: none;
   color:#b1eaff;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
