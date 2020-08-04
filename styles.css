@@ -10,8 +10,8 @@
 
 body {
   background: #585c68;
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 20px;
   color: #555555;
 }
 
@@ -19,14 +19,15 @@ body {
   font-weight: 300;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+  color:white;
 }
 
 .bold1{
-  font-weight: 300;
+  font-weight: 500;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 17px;
-
+  margin-top: 25px;
+  color:#043e53;
 }
 
 .semi-bold {
@@ -34,9 +35,14 @@ body {
   font-size: 16px;
 }
 
+.semi-bold-left{
+  font-weight: 300;
+  font-size: 16px;
+}
+
 .skill-bold {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
   margin-right: 10px;
 }
@@ -91,9 +97,17 @@ body {
 
 .skill-content{
   font-weight: 300;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 10px;
   font-family: 'Open Sans', sans-serif;
+}
+
+.resume .resume_right .resume_skills ul li .info{
+  padding-left: 20px;
+}
+
+.resume .resume_right .resume_education ul{
+  padding-left: 20px;
 }
 
 .resume .resume_left .resume_profile {
@@ -123,7 +137,7 @@ body {
 
 .content{
   font-size: 12px;
-  line-height: 18px;
+  line-height: 20px;
   padding-top: 7px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -165,6 +179,10 @@ body {
   padding: 25px 0;
   border-bottom: 2px solid #c5cfd3;
 }
+
+.resume .resume_left .resume_content ul{
+  padding-top: 10px;
+} 
 
 #resume_last{
   padding-bottom: 0px;
@@ -212,7 +230,7 @@ body {
   color: #b1eaff;
 }
 
-.resume .resume_left .resume_social .semi-bold {
+.resume .resume_left .resume_social .semi-bold, .semi-bold-left{
   color: #fff;
   margin-bottom: 3px;
 }
@@ -267,8 +285,12 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 132px;
+  height: 133px;
   background: #043e53;
+}
+
+.resume .resume_right .resume_work ul li:first-child:after{
+  height:153px;
 }
 
 .resume_education > ul > li{
@@ -294,6 +316,11 @@ body {
 
 .resume .resume_right .resume_education ul li .info {
   margin-bottom: 0;
+}
+
+.education-details{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .info-last{
