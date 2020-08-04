@@ -177,6 +177,13 @@ body {
 
 .resume .resume_item {
   padding: 25px 0;
+}
+
+.resume .resume_left .resume_item{
+  border-bottom: 2px solid #043e53;
+}
+
+.resume .resume_right .resume_item{
   border-bottom: 2px solid #c5cfd3;
 }
 
