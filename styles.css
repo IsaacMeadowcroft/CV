@@ -26,7 +26,7 @@ body {
   font-weight: 500;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 25px;
+  margin-top: 20px;
   color:#043e53;
 }
 
@@ -323,6 +323,10 @@ body {
 
 .resume .resume_right .resume_education ul li .info {
   margin-bottom: 0;
+}
+
+.resume .resume_right .resume_education ul li:last-child{
+  padding-top: 4px;
 }
 
 .education-details{
