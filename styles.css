@@ -12,14 +12,13 @@ body {
   background: #585c68;
   font-size: 12px;
   line-height: 20px;
-  color: #555555;
+  color: rgb(52, 56, 67);
 }
 
 .bold {
   font-weight: 300;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
-  color:white;
 }
 
 .bold1{
@@ -27,12 +26,13 @@ body {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   margin-top: 20px;
-  color:#043e53;
+  text-transform: uppercase;
+  color:rgb(72, 135, 200);
 }
 
 .semi-bold {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .semi-bold-left{
@@ -47,6 +47,10 @@ body {
   margin-right: 10px;
 }
 
+.resume_work{
+  margin-top: 23px;
+}
+
 .resume {
   width: 800px;
   height: 1019px;
@@ -56,12 +60,12 @@ body {
 
 .resume .resume_left {
   width: 280px;
-  background: #012633;
+  background: rgb(52, 56, 67);
 }
 
 #name{
-  margin-top: 100px;
-  margin-bottom: 110px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 #project{
@@ -69,11 +73,12 @@ body {
 }
 
 .bold-title{
-  font-size: 35px;
+  font-size: 37px;
   color: white;;
   line-height:50px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #043e53;
+  padding-bottom: 0px;
+  border-bottom: 0px solid rgb(72, 135, 200);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .regular{
@@ -138,7 +143,7 @@ body {
 .content{
   font-size: 12px;
   line-height: 20px;
-  padding-top: 7px;
+  padding-top: 10px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -155,7 +160,6 @@ body {
   color:#b1eaff;
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  padding-bottom: 10px;
   word-wrap: break-word;
 }
 
@@ -167,6 +171,33 @@ body {
   margin-bottom: 20px;
 }
 
+.title-right{
+  margin-bottom: 20px;
+  display:flex;
+  align-items: center;
+}
+
+.title-line1{
+  background-color: #c5cfd3;
+  width:58%;
+  height:2px;
+  margin-left: 5px;;
+}
+
+.title-line2{
+  background-color: #c5cfd3;
+  width:80%;
+  height:2px;
+  margin-left: 5px;;
+}
+
+.title-line3{
+  background-color: #c5cfd3;
+  width:70%;;
+  height:2px;
+  margin-left: 5px;;
+}
+
 .resume .resume_left .bold {
   color: #fff;
 }
@@ -176,15 +207,15 @@ body {
 }
 
 .resume .resume_item {
-  padding: 25px 0;
+  padding: 15px 0;
 }
 
 .resume .resume_left .resume_item{
-  border-bottom: 2px solid #043e53;
+  border-bottom: 1px solid rgb(72, 135, 200);
 }
 
 .resume .resume_right .resume_item{
-  border-bottom: 2px solid #c5cfd3;
+  /*border-bottom: 2px solid #c5cfd3;*/
 }
 
 .resume .resume_left .resume_content ul{
@@ -201,24 +232,25 @@ body {
 
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child {
+  padding-top: 15px;
   border-bottom: 0px;
 }
 
 .resume .resume_left ul li {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   align-items: center;
 }
 
 .resume .resume_left ul li:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .resume .resume_left ul li .icon {
   min-width: 25px;
   min-height: 25px;
-  background: #fff;
-  color: #000000;
+  background: rgb(72, 135, 200);
+  color: white;
   border-radius: 50%;
   margin-right: 15px;
   font-size: 16px;
@@ -234,7 +266,7 @@ body {
 }
 
 .resume .resume_left ul li .data {
-  color: #b1eaff;
+  color: rgb(72, 135, 200);
 }
 
 .resume .resume_left .resume_social .semi-bold, .semi-bold-left{
@@ -249,7 +281,8 @@ body {
 }
 
 .resume .resume_right .bold {
-  color: #043e53;
+  color:rgb(72, 135, 200);
+  text-transform: uppercase;
 }
 
 .resume .resume_right .resume_work ul{
@@ -264,7 +297,7 @@ body {
 .resume .resume_right ul li .date {
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .resume .resume_right ul li .info {
@@ -283,7 +316,7 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  border: 2px solid #043e53;
+  border: 2px solid rgb(72, 135, 200);
 }
 
 .resume .resume_right .resume_work ul li:after{
@@ -292,12 +325,12 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 133px;
-  background: #043e53;
+  height: 152px;
+  background: rgb(72, 135, 200);
 }
 
 .resume .resume_right .resume_work ul li:first-child:after{
-  height:153px;
+  height:173px;
 }
 
 .resume_education > ul > li{
@@ -335,7 +368,7 @@ body {
 }
 
 .info-last{
-  padding-top: 25px;
+  padding-top: 15px;
   display: flex;
   align-items: center;
   color:black;
