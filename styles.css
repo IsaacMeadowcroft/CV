@@ -249,8 +249,8 @@ body {
 .resume .resume_left ul li .icon {
   min-width: 25px;
   min-height: 25px;
-  background: rgb(72, 135, 200);
-  color: white;
+  background: white;
+  color: rgb(72, 135, 200);
   border-radius: 50%;
   margin-right: 15px;
   font-size: 16px;
