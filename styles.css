@@ -179,21 +179,21 @@ body {
 
 .title-line1{
   background-color: #c5cfd3;
-  width:58%;
+  width: calc(92% - 160px);
   height:2px;
   margin-left: 5px;;
 }
 
 .title-line2{
   background-color: #c5cfd3;
-  width:80%;
+  width: calc(92% - 55px);
   height:2px;
   margin-left: 5px;;
 }
 
 .title-line3{
   background-color: #c5cfd3;
-  width:70%;;
+  width: calc(92% - 102px);
   height:2px;
   margin-left: 5px;;
 }
