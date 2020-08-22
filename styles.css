@@ -325,12 +325,12 @@ body {
   top: 14px;
   left: -21px;
   width: 2px;
-  height: 152px;
+  height: 133px;
   background: rgb(72, 135, 200);
 }
 
 .resume .resume_right .resume_work ul li:first-child:after{
-  height:173px;
+  height:193px;
 }
 
 .resume_education > ul > li{
